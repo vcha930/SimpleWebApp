@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>UoA Computer Science</title>
+    <link rel="stylesheet" href="vcha930.css">
+    <script src="vcha930.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="http://redsox.uoa.auckland.ac.nz/ups/logo.svg" alt="logo" width="50%">
+        </div>
+        <div class="mainHeading">
+          <h1>UoA Computer Science Department</h1>
+        </div>
+        <nav>
+           <table id="links" style="width: 60%;">
+              <tr>
+                 <td id="homeLink" class="center" onclick="showhomeLink();">
+                    Home
+                 </td>
+                 <td id="courseLink" class="center" onclick="showcourseLink();">
+                    Courses
+                 </td>
+                 <td id="peopleLink" class="center" onclick="showpeopleLink();">
+                    People
+                 </td>
+                 <td id="newsLink" class="center" onclick="shownewsLink();">
+                    News
+                 </td>
+                 <td id="noticesLink" class="center" onclick="shownoticesLink();">
+                    Notices
+                 </td>
+                 <td id="guestLink" class="center" onclick="showguestLink();">
+                    Guest
+                 </td>
+              </tr>
+           </table>
+        </nav>
+      </div>
+    </header>
+    <div id="home">
+       <section>
+         <div class="container">
+           <h1>Welcome to the Department of Computer Science</h1>
+           <p>Welcome to New Zealand's leading computer science department.
+             We pride ourselves on the excellence of our staff and our students.</p>
+           </div>
+       </section>
+    </div>
+    <div id="courses">
+       <section>
+         <div class="container">
+           <h1>Courses</h1>
+           <table id="showCourses"></table>
+           <table id="showTimetable"></table>
+         </div>
+       </section>
+    </div>
+    <div id="people">
+       <section>
+         <div class="container">
+           <h1>People</h1>
+           <table id="showPeople"></table>
+         </div>
+       </section>
+    </div>
+    <div id="news">
+       <section>
+         <div class="container">
+           <h1>News</h1>
+           <table id="showNews"></table>
+         </div>
+       </section>
+    </div>
+    <div id="notices">
+       <section>
+         <div class="container">
+           <h1>Notices</h1>
+           <table id="showNotices"></table>
+         </div>
+       </section>
+    </div>
+    <div id="guest">
+       <section>
+         <div class="container">
+           <h1>Guest Book</h1>
+           <form action="" method="" id="form">
+           <label>Name: </label>
+           <input type="text" id="name">
+           <input type="submit" onclick="writeComment()" id="submit">
+           <br><br>
+           <textarea id="comment" rows="5" cols="50"></textarea>
+           </form>
+           <table id="showGuest"></table>
+         </div>
+       </section>
+    </div>
+  </body>
+</html>

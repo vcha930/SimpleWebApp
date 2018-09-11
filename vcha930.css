@@ -1,0 +1,81 @@
+.container{
+  width:90%;
+  margin:auto;
+  overflow: hidden;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+header{
+  border-bottom: blue solid 3px;
+  padding-bottom: 1%;
+  background: #4B4D5C;
+  color: #ffffff;
+  min-height: 70px;
+}
+
+header td{
+  color: #ffffff;
+  text-decoration-style: none;
+  text-transform:capitalize;
+  font-size: 16px;
+  width:10%;
+  border: solid 1px ;
+}
+
+.logo{
+  width:15%;
+  float:left;
+  display:inline;
+  margin-top: 20px;
+}
+
+.mainHeading{
+  width:60%;
+  float:left;
+  display:inline;
+  padding-right: 1%;
+}
+
+#homeLink{
+  background-color: #1C38D0;
+}
+
+#courses, #people, #news, #notices, #guest{
+  display: none;
+}
+
+.orderEven {
+   background-color: lightgray;
+   width:20%;
+}
+
+.orderOdd {
+   background-color: lightgray;
+   width:20%;
+}
+
+#guest label{
+  float:left;
+  padding-right: 1%;
+}
+
+#name{
+  float:left;
+  margin-top: 3px;
+}
+
+#comment{
+  padding:5px;
+}
+
+#submit{
+  margin-left: 5px;
+}
